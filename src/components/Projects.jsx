@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     name: "Weather App",
     technologies: "MERN Stack",
-    image: "/blog.png",
+    image: "/weather.png",
     github: "https://github.com/Kailash1Chandra/Seasonalwardrobe",
     link : "https://weather-app-pk-52.vercel.app/",
   },
@@ -59,6 +59,7 @@ const Projects = () => {
               >
                 GitHub
               </a>
+              {"  "}
                <a
                 href={project.link}
                 className="inline-block bg-gradient-to-r 
