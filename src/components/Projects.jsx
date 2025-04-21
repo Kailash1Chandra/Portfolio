@@ -10,6 +10,7 @@ const projects = [
     image: employeeMSImage,
     github:
       "https://github.com/Kailash1Chandra/Employee-Management-System-in-React-Node-MySQL",
+    link:"",
   },
   {
     id: 2,
@@ -17,13 +18,15 @@ const projects = [
     technologies: "MERN Stack",
     image: bookMSImage,
     github: "https://github.com/Kailash1Chandra/Admin-Dashboard",
+    link : "",
   },
   {
     id: 3,
-    name: "Blog App",
+    name: "Weather App",
     technologies: "MERN Stack",
     image: "/blog.png",
-    github: "https://github.com/Kailash1Chandra/Blog-App-with-React",
+    github: "https://github.com/Kailash1Chandra/Seasonalwardrobe",
+    link : "https://weather-app-pk-52.vercel.app/",
   },
 ];
 
@@ -56,6 +59,16 @@ const Projects = () => {
               >
                 GitHub
               </a>
+               <a
+                href={project.link}
+                className="inline-block bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+              
             </div>
           ))}
         </div>
